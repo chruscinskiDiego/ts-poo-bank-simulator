@@ -1,18 +1,18 @@
-# Simulador bancário com TypeScript
+# TypeScript bank account simulator
 
-Projeto de estudo de orientação a objetos com diferentes tipos de conta e regras de depósito, saque e empréstimo.
+Object-oriented programming exercise with account types and rules for deposits, withdrawals and loans.
 
-## Funcionalidades
+## Features
 
-- Classe base de conta e especializações Admin, Company e Premium.
-- Operações condicionadas ao estado e ao tipo da conta.
-- Cenários de demonstração executados no terminal.
+- Base account class with Admin, Company and Premium specializations.
+- Operations that depend on account state and type.
+- Demonstration scenarios executed in the terminal.
 
-## Tecnologias
+## Technologies
 
-Node.js, TypeScript e tsx.
+Node.js, TypeScript and tsx.
 
-## Executar localmente
+## Run locally
 
 ```bash
 git clone https://github.com/chruscinskiDiego/ts-poo-bank-simulator.git
@@ -21,11 +21,10 @@ npm ci
 npm start
 ```
 
-## Organização
+## Structure
 
-As classes estão em `src/class/`; `src/app.ts` reúne os cenários de uso.
+Classes are in `src/class/`; `src/app.ts` contains usage scenarios.
 
-## Escopo e limitações
+## Scope and limitations
 
-Simulação didática, com dados em memória. Os cenários do terminal não substituem uma suíte de testes automatizados e não representam operações bancárias reais.
-
+A teaching simulation with in-memory data. Terminal scenarios are not an automated test suite and do not represent real banking operations.
